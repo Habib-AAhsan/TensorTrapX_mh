@@ -1,12 +1,26 @@
-# Core libraries
+# Core Machine Learning & Deep Learning Libraries
 numpy
 pandas
+scikit-learn
+xgboost
+tensorflow
+
+# Data Visualization & Exploration
 matplotlib
 seaborn
 
-# Machine Learning
-scikit-learn
-tensorflow
+# Data Preprocessing & Feature Engineering
+imblearn  # For SMOTE and imbalance handling
 
-# Misc
+# Model Interpretability (optional, for Phase 2+)
+shap
+
+# App / Deployment
+flask
+
+# Notebook Environment
 jupyter
+
+# Miscellaneous
+openpyxl  # For reading Excel files
+joblib    # For saving/loading models
