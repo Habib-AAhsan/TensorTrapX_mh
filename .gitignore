@@ -1,0 +1,19 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Environments
+.env
+venv/
+
+# Data files
+*.csv
+*.xlsx
+data/
+
+# Models
+*.pkl
+models/
+
+# System files
+.DS_Store

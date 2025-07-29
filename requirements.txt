@@ -1,0 +1,12 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+tensorflow
+
+# Misc
+jupyter
