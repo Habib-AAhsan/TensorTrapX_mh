@@ -145,8 +145,12 @@ python scripts/main_pipeline.py
 👨‍💻 Author
 
 A Ahsan (HABIB)
-[GitHub Profile](https://github.com/Habib-AAhsan) | [LinkedIn](https://www.linkedin.com/in/habib-aahsan)
 Data Engineer & Researcher (Machine Learning & Security)
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/habib-aahsan)
+- 🧑‍💻 [GitHub](https://github.com/Habib-AAhsan)
+- 📧 Email: aahsan.ualberta@gmail.com
+
 
 
 
