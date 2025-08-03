@@ -79,12 +79,16 @@ TensorTrapX_mh/
 ## 🧪 Key Tech Stack
 
 - **Languages**: Python 3.11+
-- **Libraries**:
-  - TensorFlow, Keras
-  - Keras Tuner (hyperparameter tuning)
-  - SHAP, LIME (model explainability)
-  - Streamlit/FastAPI (dashboard)
-  - Pandas, NumPy, Seaborn, Matplotlib
+- **🧰 Libraries & Tools**
+  - TensorFlow, Keras — Core deep learning framework
+  - Keras Tuner — Hyperparameter tuning
+  - SHAP, LIME — Model explainability (local & global)
+  - FastAPI, Streamlit, Gradio — Real-time APIs & dashboards
+  - Redis + RQ — Background job handling for asynchronous feedback
+  - SQLite — Lightweight database logging
+  - Prometheus, Grafana — Monitoring and observability (metrics, dashboards)
+  - Pandas, NumPy — Data manipulation and processing
+  - Seaborn, Matplotlib — Visualizations
 
 ---
 
