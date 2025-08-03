@@ -1,19 +1,54 @@
-# Bytecode and cache
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Environments
-.env
+# Virtual environments
 venv/
+venv311/
 
-# Data files
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and outputs
+*.log
+logs/
 *.csv
 *.xlsx
-data/
-
-# Models
-*.pkl
-models/
 
 # System files
 .DS_Store
+
+# TensorBoard logs
+tensorboard/
+keras_tuner_dir/
+
+# Model files
+*.h5
+*.keras
+*.pkl
+production_model/
+
+# Environment configs
+.env
+
+# SQLite DBs
+*.db
+
+# Test results
+*.out
+*.tmp
+
+# API test & debug artifacts
+test_api*.py
+test_results/
+
+# Prometheus/Grafana config (if dynamic)
+*.yml
+*.json
+
+# FastAPI auto-generated docs
+openapi.json
+
+# VS Code / JetBrains IDEs
+.vscode/
+.idea/

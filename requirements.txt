@@ -1,26 +1,61 @@
-# Core Machine Learning & Deep Learning Libraries
+
+# ---
+
+# ### ✅ `requirements.txt`
+
+# ```txt
+# # Core Libraries
+# numpy
+# pandas
+# matplotlib
+# seaborn
+# scikit-learn
+
+# # Deep Learning
+# tensorflow>=2.13.0
+# keras-tuner
+
+# # Visualization & Monitoring
+# tensorboard
+
+# # Optional for deployment (future)
+# fastapi
+# uvicorn
+# streamlit
+
+# # Optional for explainability (next phase)
+# shap
+# lime
+
+
+
+
+# Core Libraries
 numpy
 pandas
-scikit-learn
-xgboost
-tensorflow
-
-# Data Visualization & Exploration
 matplotlib
 seaborn
+scikit-learn
 
-# Data Preprocessing & Feature Engineering
-imblearn  # For SMOTE and imbalance handling
+# Deep Learning
+tensorflow>=2.13.0
+keras-tuner
 
-# Model Interpretability (optional, for Phase 2+)
+# Visualization & Monitoring
+tensorboard
+
+# Real-time API deployment
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0  # required for BaseModel in FastAPI >= 0.100
+
+# Web frontend (optional future)
+streamlit
+
+# Model explainability
 shap
+lime
 
-# App / Deployment
-flask
-
-# Notebook Environment
-jupyter
-
-# Miscellaneous
-openpyxl  # For reading Excel files
-joblib    # For saving/loading models
+prometheus_client
+redis
+rq
