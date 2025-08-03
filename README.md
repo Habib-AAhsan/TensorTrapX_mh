@@ -32,25 +32,46 @@
 
 ## 📁 Project Structure (Finalized)
 
-```plaintext
+## 📁 Project Structure
+
+```
 TensorTrapX_mh/
+├── main.py                       # FastAPI app with prediction, explain, feedback endpoints
+├── feedback_worker.py           # RQ worker to process asynchronous feedback jobs
+├── setup.py                     # Setup for packaging (optional for distribution)
+├── requirements.txt             # Final pip dependencies
+├── README.md                    # Project documentation
+├── .gitignore                   # Clean git tracking rules
 │
-├── data/                            # Dataset CSVs, cleaned versions
-├── notebooks/                       # Jupyter development notebooks
-│   └── model_builder-hp-functions-cnnAppended-FINAL.ipynb
-├── models/
+├── data/                        # Project artifacts and data visualizations
+│   └── train-validation-loss.png
+│
+├── images/                      # Static images used in README, diagrams, SHAP/LIME
+│   ├── ROC.png
+│   ├── SHAP VALUE.png
+│   ├── SHAPE VS LIME.png
+│   ├── TensorTrapX Async Feedback Loop Architecture.png
+│   └── ...
+│
+├── logs/                        # Feedback logs, if used
+│   └── feedback_log.csv
+│
+├── model/                       # Trained and saved models
+│   ├── best_model.h5
 │   └── best_model.keras
-├── scripts/
-│   └── main_pipeline.py            # Production-ready pipeline (modularized)
-│   └── explainability.py           # SHAP, LIME integrations
-├── logs/                            # TensorBoard logs
-├── keras_tuner_dir/                # Hyperparameter tuning logs
-├── dashboard/                       # Streamlit/FastAPI (To be added)
-├── Dockerfile                       # (optional)
-├── .gitignore
-├── README.md
-├── requirements.txt
-└── setup.py
+│
+├── notebook/                    # Jupyter notebooks for preprocessing, modeling, explainability
+│   ├── 1_preprocessing_BreastCancer.ipynb
+│   ├── 2_modeling_tf_BreatCancer.ipynb
+│   ├── Phase2_Model_LIME_Explainability.ipynb
+│   ├── Phase2_SHAP_Explainability_CLEAN.ipynb
+│   ├── shap_force_plot_instance1.html
+│   └── lime_explanation_instance_5.html
+│
+├── test_api_predict.py          # Python script to test /predict endpoint with 5 samples
+├── test_explain.py              # Python script to test /explain endpoint
+│
+└── tensorboard/                 # TensorBoard logs (auto-generated if enabled)
 ```
 
 ---
