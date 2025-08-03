@@ -31,9 +31,6 @@
 ---
 
 ## 📁 Project Structure (Finalized)
-
-## 📁 Project Structure
-
 ```
 TensorTrapX_mh/
 ├── main.py                       # FastAPI app with prediction, explain, feedback endpoints
