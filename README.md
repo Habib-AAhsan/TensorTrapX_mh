@@ -122,14 +122,26 @@ python scripts/main_pipeline.py
 
 ---
 
-## 🌍 Future Roadmap
+# 🌍 Future Roadmap
 
-- ✅ Phase 1: MVP + CNN (completed)
-- 🔜 Phase 2: Model Explainability (SHAP, LIME)
-- 🔜 Phase 3: Real-Time Prediction API (FastAPI)
-- 🔜 Phase 4: Streamlit/Gradio Dashboard
-- 🔜 Phase 5: Monitoring + Logging (Prometheus, Grafana)
-- 🔜 Phase 6: Dockerization + GitHub Actions CI/CD
+### ✅ Phase 1: MVP + CNN  
+Core model built using **TensorFlow** with **Conv1D** layers and tuned with **Keras Tuner**.
+
+### ✅ Phase 2: Model Explainability (SHAP, LIME)  
+**SHAP** and **LIME** integrated for local and global explainability with comparison plots.
+
+### ✅ Phase 3: Real-Time Prediction API (FastAPI)  
+Asynchronous **FastAPI** app with **Redis + RQ**, supporting `/predict`, `/feedback`, and `/explain` endpoints, with **SQLite** logging.
+
+### 🔜 Phase 4: Streamlit / Gradio Dashboard  
+User-facing dashboard for real-time predictions, visual insights, and feedback loop.
+
+### 🔜 Phase 5: Monitoring + Logging (Prometheus, Grafana)  
+Metrics collection, visual dashboards, and performance monitoring for **MLOps observability**.
+
+### 🔜 Phase 6: Dockerization + GitHub Actions CI/CD  
+Containerization, deployment automation, and **GitHub Actions** for production readiness.
+
 
 ---
 
